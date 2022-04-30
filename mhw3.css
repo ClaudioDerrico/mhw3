@@ -1,0 +1,248 @@
+a {
+  cursor: pointer; 
+}
+
+
+header {
+ background-image: url(https://androidguias.com/wp-content/uploads/2021/04/dibujos-anime.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  font-size:110%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora',sans-serif;
+ 
+  
+}
+
+header nav{
+  color: white;
+
+}
+
+body {
+  margin: 0;
+background-image:url(https://www.advise.it/wp-content/uploads/2014/08/sfondo-sitiweb-integrazione.jpg);
+  background-size:cover;
+  
+  
+}
+  
+header nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+#icona{
+  position: relative;
+  margin-bottom:60px;
+  text-align:center;
+  margin-top: -50px; 
+ 
+ 
+}
+
+
+
+
+#icona img{
+  height: 100px;
+
+}
+
+#links a{
+  font-size: 170%;
+  margin: 10px;
+  font-family: 'calibri',sans-serif;
+  
+}
+
+  
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+header h1{
+  max-width:780px;
+  z-index:3;
+}
+
+#icona p{
+ margin-top:-5px;
+}
+
+
+section{
+  margin:auto;
+}
+
+
+
+ section p{
+   margin:0px auto;
+   margin-bottom: 20px;
+   font-size: 140%;
+   color:white;
+   font-family:"IBM Plex Sans Arabic", sans-serif;
+ 
+}
+
+
+ol {
+  width: 66.67%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+li {
+  margin-bottom: 120px;
+  font-size: 30px;
+}
+
+div .corpo{
+  margin-left: 10px;
+  font-size:18px;
+}
+
+
+
+section img{
+  display:block;
+  margin:0px auto;
+  width: 400px;
+  height:550px;
+}
+
+footer {
+  background-color: rgb(139, 26, 39);
+  color: rgba(255, 255, 255, .8);
+  padding:10px;
+  height:120px;
+ 
+}
+
+footer a,span{
+  display:block;
+  font-size: 140%;
+  text-align: center;
+ 
+}
+
+.titolo{
+  color: black;
+  font-family:"Dela Gothic One",sans-serif;
+  font-size: 30px;
+}
+
+
+#menu{
+    display: none;
+  }
+
+  #menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+  }
+
+
+@media(max-width: 1200px){
+  
+#menu{
+    display: block;
+  }
+#links{
+    display: none;
+  }
+  
+  section img{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    }
+    
+  }
+
+
+
+ 
+
+a.button:hover {
+  background-color: white;
+  color: black;
+}
+a.button {
+  padding: 10px 15px;
+  border: 4px solid white;
+  border-radius: 100px;
+}
+
+section p strong{
+  color:black;
+}
+
+.descrizione{
+  font-size: 20px;
+}
+ 
+
+
+form,h1{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom:20px;
+}
+
+#anime-view{
+  width: 66.67%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#genere-view{
+  width: 66.67%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white{
+  color: white;
+}
